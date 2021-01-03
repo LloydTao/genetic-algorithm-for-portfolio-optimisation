@@ -1,0 +1,6 @@
+# Lint
+black==20.8b1
+
+# Test
+coverage==5.3
+pytest==6.2.1
