@@ -1,0 +1,19 @@
+# Configuration for coverage.py checks
+# https://coverage.readthedocs.io/en/latest/config.html
+
+[run]
+source = algorithm
+branch = True
+
+[report]
+show_missing = True
+ignore_errors = True
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    if self.debug:
+    if settings.DEBUG
+    raise AssertionError
+    raise NotImplementedError
+    if 0:
+    if __name__ == .__main__.:
