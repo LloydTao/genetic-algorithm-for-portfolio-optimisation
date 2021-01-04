@@ -8,3 +8,4 @@ pytest==6.2.1
 # Data science
 numpy==1.19.4
 pandas==1.2.0
+QuantStats==0.0.25
